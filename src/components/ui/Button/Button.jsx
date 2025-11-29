@@ -33,7 +33,7 @@ const Button = ({ children, variant = "primary", style, ...props }) => {
   };
 
   return (
-    <button {...props} style={finalStyle}>
+    <button style={finalStyle} {...props}>
       {children}
     </button>
   );

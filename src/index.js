@@ -1,2 +1,5 @@
-// OJO: sin la extensión .jsx
-export { default as Button } from "./components/Button";
+// Componentes de UI
+export * from "./components/ui";
+
+// helpers
+export * from "./components/hooks";
