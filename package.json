@@ -1,0 +1,35 @@
+{
+  "name": "agch",
+  "version": "0.0.2",
+  "description": "Librería de componentes React de agch",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist --extensions \".js,.jsx\"",
+    "prepare": "npm run build",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "agch"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0 <20.0.0",
+    "react-dom": ">=18.0.0 <20.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
