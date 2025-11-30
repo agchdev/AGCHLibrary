@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "babel src --out-dir dist --extensions \".js,.jsx\"",
+    "build": "babel src --out-dir dist --extensions \".js,.jsx\" && cp src/components/ui/BubbleMenu/BubbleMenu.css dist/components/ui/BubbleMenu/BubbleMenu.css",
     "prepare": "npm run build",
     "test": "echo \"No test specified\" && exit 0"
   },
