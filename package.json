@@ -1,6 +1,6 @@
 {
   "name": "agch",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Librería de componentes React de agch",
   "main": "dist/index.js",
   "module": "dist/index.js",
