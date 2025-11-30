@@ -1,3 +1,5 @@
+"use client";
+import React  from 'react';
 import { useLayoutEffect, useRef, useCallback } from 'react';
 import Lenis from 'lenis';
 

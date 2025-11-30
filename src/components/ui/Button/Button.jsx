@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React  from 'react';
 
 const Button = ({ children, variant = "primary", style, ...props }) => {
   const baseStyle = {
